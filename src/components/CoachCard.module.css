@@ -1,0 +1,58 @@
+.card_container {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 0.5rem 0.5rem rgba(0, 0, 0, 0.05),
+        0px 0px 0.5rem 1rem rgba(0, 0, 0, 0.02);
+    transition: transform 0.2s ease;
+}
+
+.card_container:hover {
+    transform: scale(1.1);
+}
+
+.card_cover {
+    border-radius: 1rem;
+    height: 10rem;
+    position: relative;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80");
+}
+
+.profile {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+
+.profile > img {
+    border-radius: 50%;
+}
+
+.card_content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.card_content > p {
+    font-size: 1.3rem;
+}
+
+.specializations {
+    margin-top: 0.1rem;
+    list-style: inside;
+}
+
+.specializations > li {
+    list-style: inside;
+}
+
+.card_actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+}

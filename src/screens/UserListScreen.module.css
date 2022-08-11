@@ -1,0 +1,43 @@
+.userlists_wrapper {
+    height: 90vh;
+    padding: 2rem;
+}
+
+.create_button {
+    text-align: end;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.product__lists {
+    min-height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.product__lists h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+.table tbody tr:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+
+.table td,
+.table th {
+    text-align: left;
+    border: 0.1rem solid #e4e4e4;
+    padding: 0.5rem;
+}
+.table button {
+    margin: 0 0.2rem;
+}
+
+.table__productlists {
+    margin-bottom: 3rem;
+}
+.table__productlists button {
+    padding: 0rem 1rem;
+}

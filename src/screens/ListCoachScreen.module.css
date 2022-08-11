@@ -1,0 +1,8 @@
+.coach_wrapper {
+    height: 90vh;
+    padding: 5rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
